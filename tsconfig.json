@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "alwaysStrict": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/aboutUs.js",
+    "pages/faqs.tsx",
+    "components/styles/colors.ts",
+	"pages/blog/index.js",
+	"pages/blog/tag/[tag].js",
+  ],
+  "exclude": ["node_modules"]
+}
